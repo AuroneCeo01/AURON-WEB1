@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A-URONÉ | Streetwear Royalty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header (Navbar) -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">A-URONÉ</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <img src="images/hero-bg.jpg" alt="A-URONÉ Streetwear">
+        <div class="hero-content">
+            <h1>Streetwear Royalty with A-URONÉ</h1>
+            <p>Embrace the Future of Fashion. Bold. Edgy. Street-inspired.</p>
+            <a href="#shop" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="category">
+            <img src="images/category1.jpg" alt="Clothing">
+            <h2>Clothing</h2>
+            <p>Explore our premium streetwear collection, designed to turn heads.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="images/category2.jpg" alt="Bags">
+            <h2>Bags</h2>
+            <p>Carry your essentials in style with our bold bags and backpacks.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="images/category3.jpg" alt="Shoes">
+            <h2>Shoes</h2>
+            <p>Step up your game with premium street-inspired footwear.</p>
+            <a href="#">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="product-gallery" id="shop">
+        <div class="product">
+            <img src="images/product1.jpg" alt="StormRift Leather Bomber">
+            <h3>StormRift Leather Bomber</h3>
+            <p>Price: R2499</p>
+            <a href="#">View More</a>
+            <a href="#">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img src="images/product2.jpg" alt="NOVA Baggy Cargo Pants">
+            <h3>NOVA Baggy Cargo Pants</h3>
+            <p>Price: R1299</p>
+            <a href="#">View More</a>
+            <a href="#">Add to Cart</a>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About A-URONÉ</h2>
+        <p>A-URONÉ is the fusion of modern streetwear and South African pride. Our pieces are bold, fashionable, and carry a message of individuality. Every garment tells a story, and with A-URONÉ, you can express your unique style confidently.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with us through the form below.</p>
+        <!-- Contact Form (this can be later expanded with a form) -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 A-URONÉ. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
